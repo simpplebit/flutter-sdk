@@ -1,0 +1,26 @@
+name: simplebit_flutter
+description: Official SimpleBit SDK for Flutter — create invoices with a public key and accept payments through the hosted checkout page.
+version: 0.1.0
+homepage: https://github.com/simpplebit/flutter-sdk
+repository: https://github.com/simpplebit/flutter-sdk
+
+# Distributed via GitHub only (git dependency). Not published to pub.dev.
+# Remove this line and run `dart pub publish` if/when you decide to publish.
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  webview_flutter: ^4.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
