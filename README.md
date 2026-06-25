@@ -104,7 +104,3 @@ The SDK is consumed via git, so consumers pin to a **tag**. To cut a release:
 3. Consumers reference it with `ref: v0.1.0`.
 
 If you later publish to pub.dev, remove `publish_to: none` from `pubspec.yaml`, then `dart pub publish`.
-
-## License
-
-MIT
